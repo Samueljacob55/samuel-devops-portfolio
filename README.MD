@@ -9,4 +9,4 @@ This project showcases my Cloud & DevOps skills, projects, resume, GitHub, and L
 # 🌐 Live Demo
 
 ```bash
-http://YOUR-EC2-PUBLIC-IP
+http://34.235.136.214
