@@ -30,7 +30,7 @@ export default function About() {
           className="liquid-glass rounded-2xl p-2 mx-auto md:mx-0 w-fit"
         >
           <img
-            src="/profile.jpg"
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
             alt="Samuel"
             className="w-40 h-52 md:w-full md:h-56 object-cover rounded-xl"
           />

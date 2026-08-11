@@ -107,7 +107,7 @@ export default function Hero() {
               transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
             />
             <motion.img
-              src="/profile-hero.jpg"
+              src={`${import.meta.env.BASE_URL}profile-hero.jpg`} 
               alt="Samuel"
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
