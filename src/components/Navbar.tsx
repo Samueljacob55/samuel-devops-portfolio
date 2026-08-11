@@ -20,7 +20,7 @@ export default function Navbar() {
     >
       <a href="#home" className="flex items-center gap-2.5">
         <img
-          src="/profile.jpg"
+          src={`${import.meta.env.BASE_URL}profile.jpg`}
           alt="Samuel"
           className="w-8 h-8 rounded-full object-cover border border-white/20"
         />
