@@ -19,11 +19,7 @@ export default function Navbar() {
       className="relative z-20 max-w-6xl mx-auto px-6 pt-6 flex items-center justify-between"
     >
       <a href="#home" className="flex items-center gap-2.5">
-        <img
-          src={`${import.meta.env.BASE_URL}profile.jpg`}
-          alt="Samuel"
-          className="w-8 h-8 rounded-full object-cover border border-white/20"
-        />
+        
         <span className="font-semibold tracking-tight hidden sm:inline">Samuel</span>
       </a>
 
